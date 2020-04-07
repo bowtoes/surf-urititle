@@ -621,7 +621,6 @@ void
 updatetitle(Client *c)
 {
 	char *title;
-	const char *name = c->overtitle ? c->overtitle :
 	/* URI Title */
 	const char *name = URITitle ? geturi(c) :
 	                   c->overtitle ? c->overtitle :
